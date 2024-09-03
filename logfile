@@ -1,0 +1,122 @@
+2024-08-09 15:13:37.224 JST [74950] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2024-08-09 15:13:37.225 JST [74950] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-08-09 15:13:37.225 JST [74950] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-08-09 15:13:37.225 JST [74950] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-08-09 15:13:37.225 JST [74950] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-08-09 15:13:37.225 JST [74950] WARNING:  could not create listen socket for "localhost"
+2024-08-09 15:13:37.225 JST [74950] FATAL:  could not create any TCP/IP sockets
+2024-08-09 15:13:37.225 JST [74950] LOG:  database system is shut down
+2024-08-09 15:18:26.961 JST [74979] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2024-08-09 15:18:26.962 JST [74979] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-08-09 15:18:26.962 JST [74979] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-08-09 15:18:26.962 JST [74979] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-08-09 15:18:26.962 JST [74979] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-08-09 15:18:26.962 JST [74979] WARNING:  could not create listen socket for "localhost"
+2024-08-09 15:18:26.962 JST [74979] FATAL:  could not create any TCP/IP sockets
+2024-08-09 15:18:26.962 JST [74979] LOG:  database system is shut down
+2024-08-09 15:20:24.220 JST [74992] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2024-08-09 15:20:24.221 JST [74992] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-08-09 15:20:24.221 JST [74992] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-08-09 15:20:24.221 JST [74992] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-08-09 15:20:24.221 JST [74992] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-08-09 15:20:24.221 JST [74992] WARNING:  could not create listen socket for "localhost"
+2024-08-09 15:20:24.221 JST [74992] FATAL:  could not create any TCP/IP sockets
+2024-08-09 15:20:24.221 JST [74992] LOG:  database system is shut down
+2024-08-09 15:21:20.613 JST [74997] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2024-08-09 15:21:20.614 JST [74997] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-08-09 15:21:20.614 JST [74997] LOG:  listening on IPv6 address "::1", port 5433
+2024-08-09 15:21:20.615 JST [74997] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2024-08-09 15:21:20.617 JST [74998] LOG:  database system was shut down at 2024-08-09 15:12:16 JST
+2024-08-09 15:21:20.618 JST [74997] LOG:  database system is ready to accept connections
+2024-08-09 15:21:42.793 JST [75008] FATAL:  role "postgres" does not exist
+2024-08-09 15:22:05.536 JST [75014] FATAL:  database "wadaerika" does not exist
+2024-08-09 16:50:30.686 JST [76036] ERROR:  permission denied to create database
+2024-08-09 16:50:30.686 JST [76036] STATEMENT:  CREATE DATABASE "test_petsitting_db" 
+2024-08-09 16:52:57.814 JST [76042] ERROR:  permission denied to create database
+2024-08-09 16:52:57.814 JST [76042] STATEMENT:  CREATE DATABASE test_petsitting_db;
+2024-08-09 16:53:28.744 JST [76078] FATAL:  role "postgres" does not exist
+2024-08-09 16:53:44.164 JST [76080] ERROR:  permission denied to create database
+2024-08-09 16:53:44.164 JST [76080] STATEMENT:  CREATE DATABASE test_petsitting_db;
+2024-08-09 16:54:03.924 JST [76080] ERROR:  permission denied
+2024-08-09 16:54:03.924 JST [76080] STATEMENT:  ALTER USER wadasan CREATEDB;
+2024-08-09 16:57:28.911 JST [76105] ERROR:  must be superuser to create superusers
+2024-08-09 16:57:28.911 JST [76105] STATEMENT:  CREATE ROLE new_superuser WITH SUPERUSER LOGIN PASSWORD 'Wada0224';
+2024-08-09 16:58:50.486 JST [76105] ERROR:  syntax error at or near "psql" at character 1
+2024-08-09 16:58:50.486 JST [76105] STATEMENT:  psql -U wadaerika -p 5433 -d postgres
+	
+	CREATE DATABASE test_petsitting_db;
+2024-08-09 16:59:30.979 JST [76105] ERROR:  permission denied to create database
+2024-08-09 16:59:30.979 JST [76105] STATEMENT:  CREATE DATABASE test_petsitting_db;
+2024-08-09 17:00:15.512 JST [76105] ERROR:  syntax error at or near "psql" at character 1
+2024-08-09 17:00:15.512 JST [76105] STATEMENT:  psql -U wadaerika -p 5433 -d postgres
+	ALTER USER wadaerika WITH SUPERUSER;
+2024-08-09 17:02:13.674 JST [76105] ERROR:  syntax error at or near "psql" at character 1
+2024-08-09 17:02:13.674 JST [76105] STATEMENT:  psql -U wadaerika -p 5433
+	
+	SELECT current_user, current_database();
+2024-08-09 17:03:52.549 JST [76105] ERROR:  must be superuser to alter superuser roles or change superuser attribute
+2024-08-09 17:03:52.549 JST [76105] STATEMENT:  ALTER ROLE wadasan WITH SUPERUSER;
+2024-08-09 17:04:38.989 JST [76171] FATAL:  role "_postgres" does not exist
+2024-08-09 17:06:40.291 JST [76184] FATAL:  database "wadasan" does not exist
+2024-08-09 17:06:59.390 JST [76192] FATAL:  role "postgres" does not exist
+2024-08-09 17:09:17.729 JST [76206] ERROR:  permission denied to create database
+2024-08-09 17:09:17.729 JST [76206] STATEMENT:  CREATE DATABASE test_petsitting_db;
+2024-08-09 17:09:42.488 JST [76206] ERROR:  permission denied to create database
+2024-08-09 17:09:42.488 JST [76206] STATEMENT:  CREATE DATABASE test_petsitting_db OWNER wadasan;
+2024-08-09 17:10:17.891 JST [76232] FATAL:  role "_postgres" does not exist
+2024-08-09 17:14:23.928 JST [74997] LOG:  received fast shutdown request
+2024-08-09 17:14:23.928 JST [74997] LOG:  aborting any active transactions
+2024-08-09 17:14:23.929 JST [74997] LOG:  background worker "logical replication launcher" (PID 75004) exited with exit code 1
+2024-08-09 17:14:23.929 JST [74999] LOG:  shutting down
+2024-08-09 17:14:23.937 JST [74997] LOG:  database system is shut down
+2024-08-09 17:14:24.073 JST [76277] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2024-08-09 17:14:24.074 JST [76277] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-08-09 17:14:24.074 JST [76277] LOG:  listening on IPv6 address "::1", port 5433
+2024-08-09 17:14:24.074 JST [76277] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2024-08-09 17:14:24.079 JST [76278] LOG:  database system was shut down at 2024-08-09 17:14:23 JST
+2024-08-09 17:14:24.082 JST [76277] LOG:  database system is ready to accept connections
+2024-08-09 17:14:58.084 JST [76294] FATAL:  role "_postgres" does not exist
+2024-08-09 17:15:26.539 JST [76298] FATAL:  database "wadaerika" does not exist
+2024-08-09 17:15:30.520 JST [76300] FATAL:  database "wadaerika" does not exist
+2024-08-09 17:21:55.177 JST [76368] ERROR:  database "test_petsitting_db" already exists
+2024-08-09 17:21:55.177 JST [76368] STATEMENT:  CREATE DATABASE "test_petsitting_db" 
+2024-08-13 11:42:43.685 JST [79857] ERROR:  column "is_superuser" of relation "pets_user" does not exist at character 52
+2024-08-13 11:42:43.685 JST [79857] STATEMENT:  INSERT INTO "pets_user" ("password", "last_login", "is_superuser", "email", "name", "is_active", "is_admin", "is_staff") VALUES ('pbkdf2_sha256$720000$sK0fqXMh3YGdTrCGjRbYfq$haYkpiSkwexB7Wj93UzwqDRtC3FLzX+0/Y1lMx4fWIc=', NULL, false, 'sitter@example.com', 'Sitter', true, false, false) RETURNING "pets_user"."id"
+2024-08-13 11:42:43.835 JST [79864] ERROR:  column "is_superuser" of relation "pets_user" does not exist at character 52
+2024-08-13 11:42:43.835 JST [79864] STATEMENT:  INSERT INTO "pets_user" ("password", "last_login", "is_superuser", "email", "name", "is_active", "is_admin", "is_staff") VALUES ('pbkdf2_sha256$720000$7W2Kkz3BO9qinHRyWRxb6A$2qUwNBBal1ZhXga6VSdw4jHjDioGlofrwGBtJVLBkN4=', NULL, false, 'owner@example.com', 'Owner', true, false, false) RETURNING "pets_user"."id"
+2024-08-13 11:42:43.983 JST [79865] ERROR:  column "is_superuser" of relation "pets_user" does not exist at character 52
+2024-08-13 11:42:43.983 JST [79865] STATEMENT:  INSERT INTO "pets_user" ("password", "last_login", "is_superuser", "email", "name", "is_active", "is_admin", "is_staff") VALUES ('pbkdf2_sha256$720000$KYqoqpoYdqIWy6BYBmNJIp$qCDfyVu4IqePZ4Pt38RzsAGhSfR1bKIg5ZMd0mWEU2Q=', NULL, false, 'testuser@example.com', 'Test User', true, false, false) RETURNING "pets_user"."id"
+2024-08-13 11:42:44.128 JST [79865] ERROR:  column "is_superuser" of relation "pets_user" does not exist at character 52
+2024-08-13 11:42:44.128 JST [79865] STATEMENT:  INSERT INTO "pets_user" ("password", "last_login", "is_superuser", "email", "name", "is_active", "is_admin", "is_staff") VALUES ('pbkdf2_sha256$720000$1HwUGiwY0cyhuLOj0khgRa$jmJP7CqDC3IWrN1C+R/VkmkvLWAo4O7EGS3N/6StMgQ=', NULL, false, 'testuser@example.com', 'Test User', true, false, false) RETURNING "pets_user"."id"
+2024-08-13 11:42:44.150 JST [79868] ERROR:  column "is_superuser" of relation "pets_user" does not exist at character 52
+2024-08-13 11:42:44.150 JST [79868] STATEMENT:  INSERT INTO "pets_user" ("password", "last_login", "is_superuser", "email", "name", "is_active", "is_admin", "is_staff") VALUES ('testpass', NULL, false, 'test@example.com', 'Test User', true, false, false) RETURNING "pets_user"."id"
+2024-08-15 20:27:52.056 JST [76282] LOG:  statistics collector's time 2024-08-15 20:27:59.35359+09 is later than backend local time 2024-08-15 20:27:52.056682+09
+2024-08-15 20:27:52.058 JST [76283] LOG:  stats_timestamp 2024-08-15 20:27:59.35359+09 is later than collector's time 2024-08-15 20:27:52.05884+09 for database 0
+2024-08-15 23:58:38.924 JST [76282] LOG:  statistics collector's time 2024-08-15 23:58:56.237513+09 is later than backend local time 2024-08-15 23:58:38.923943+09
+2024-08-15 23:58:38.925 JST [76283] LOG:  stats_timestamp 2024-08-15 23:58:56.237513+09 is later than collector's time 2024-08-15 23:58:38.925068+09 for database 0
+2024-08-24 16:02:46.740 JST [71340] ERROR:  cannot truncate a table referenced in a foreign key constraint
+2024-08-24 16:02:46.740 JST [71340] DETAIL:  Table "auth_user_user_permissions" references "auth_permission".
+2024-08-24 16:02:46.740 JST [71340] HINT:  Truncate table "auth_user_user_permissions" at the same time, or use TRUNCATE ... CASCADE.
+2024-08-24 16:02:46.740 JST [71340] STATEMENT:  TRUNCATE "pets_pet", "django_session", "socialaccount_socialaccount", "authtoken_token", "pets_user_user_permissions", "socialaccount_socialtoken", "pets_user_groups", "django_admin_log", "pets_sitter", "socialaccount_socialapp", "pets_review", "pets_match", "pets_booking", "pets_message", "account_emailconfirmation", "auth_permission", "account_emailaddress", "auth_group_permissions", "django_site", "pets_user", "django_content_type", "auth_group", "socialaccount_socialapp_sites" RESTART IDENTITY;
+2024-08-24 16:06:32.696 JST [71626] ERROR:  cannot truncate a table referenced in a foreign key constraint
+2024-08-24 16:06:32.696 JST [71626] DETAIL:  Table "auth_user_groups" references "auth_group".
+2024-08-24 16:06:32.696 JST [71626] HINT:  Truncate table "auth_user_groups" at the same time, or use TRUNCATE ... CASCADE.
+2024-08-24 16:06:32.696 JST [71626] STATEMENT:  TRUNCATE "pets_match", "django_content_type", "socialaccount_socialapp", "account_emailconfirmation", "pets_user_groups", "django_session", "socialaccount_socialapp_sites", "socialaccount_socialtoken", "account_emailaddress", "pets_sitter", "auth_group", "pets_pet", "pets_review", "pets_user_user_permissions", "authtoken_token", "socialaccount_socialaccount", "auth_group_permissions", "django_admin_log", "auth_permission", "django_site", "pets_message", "pets_user", "pets_booking" RESTART IDENTITY;
+2024-08-25 10:27:47.341 JST [72278] ERROR:  cannot truncate a table referenced in a foreign key constraint
+2024-08-25 10:27:47.341 JST [72278] DETAIL:  Table "auth_user_user_permissions" references "auth_permission".
+2024-08-25 10:27:47.341 JST [72278] HINT:  Truncate table "auth_user_user_permissions" at the same time, or use TRUNCATE ... CASCADE.
+2024-08-25 10:27:47.341 JST [72278] STATEMENT:  TRUNCATE "auth_group_permissions", "pets_pet", "auth_permission", "socialaccount_socialaccount", "pets_review", "account_emailaddress", "authtoken_token", "pets_message", "pets_sitter", "django_admin_log", "django_site", "pets_user_groups", "pets_booking", "django_session", "django_content_type", "pets_user_user_permissions", "auth_group", "socialaccount_socialtoken", "pets_match", "account_emailconfirmation", "socialaccount_socialapp_sites", "pets_user", "socialaccount_socialapp" RESTART IDENTITY;
+2024-08-25 11:24:29.892 JST [72834] ERROR:  permission denied for table django_site
+2024-08-25 11:24:29.892 JST [72834] STATEMENT:  SELECT 1 AS "a" FROM "django_site" LIMIT 1
+2024-08-27 16:10:49.329 JST [92916] ERROR:  column pets_user.username does not exist at character 156
+2024-08-27 16:10:49.329 JST [92916] STATEMENT:  SELECT "authtoken_token"."key", "authtoken_token"."user_id", "authtoken_token"."created", "pets_user"."id", "pets_user"."last_login", "pets_user"."email", "pets_user"."username", "pets_user"."password", "pets_user"."is_active", "pets_user"."is_staff", "pets_user"."is_superuser", "pets_user"."is_sitter", "pets_user"."date_joined" FROM "authtoken_token" INNER JOIN "pets_user" ON ("authtoken_token"."user_id" = "pets_user"."id") WHERE "authtoken_token"."key" = '4ee8408a87c1fbdb5c33c3e649c15a4a53470f25' LIMIT 21
+2024-08-27 16:10:49.346 JST [92916] ERROR:  column pets_user.username does not exist at character 156
+2024-08-27 16:10:49.346 JST [92916] STATEMENT:  SELECT "authtoken_token"."key", "authtoken_token"."user_id", "authtoken_token"."created", "pets_user"."id", "pets_user"."last_login", "pets_user"."email", "pets_user"."username", "pets_user"."password", "pets_user"."is_active", "pets_user"."is_staff", "pets_user"."is_superuser", "pets_user"."is_sitter", "pets_user"."date_joined" FROM "authtoken_token" INNER JOIN "pets_user" ON ("authtoken_token"."user_id" = "pets_user"."id") LIMIT 21
+2024-08-27 16:10:49.347 JST [92916] ERROR:  column pets_user.username does not exist at character 156
+2024-08-27 16:10:49.347 JST [92916] STATEMENT:  SELECT "authtoken_token"."key", "authtoken_token"."user_id", "authtoken_token"."created", "pets_user"."id", "pets_user"."last_login", "pets_user"."email", "pets_user"."username", "pets_user"."password", "pets_user"."is_active", "pets_user"."is_staff", "pets_user"."is_superuser", "pets_user"."is_sitter", "pets_user"."date_joined" FROM "authtoken_token" INNER JOIN "pets_user" ON ("authtoken_token"."user_id" = "pets_user"."id") WHERE "authtoken_token"."key" = '4ee8408a87c1fbdb5c33c3e649c15a4a53470f25' LIMIT 21
+2024-08-27 16:10:49.348 JST [92916] ERROR:  column pets_user.username does not exist at character 156
+2024-08-27 16:10:49.348 JST [92916] STATEMENT:  SELECT "authtoken_token"."key", "authtoken_token"."user_id", "authtoken_token"."created", "pets_user"."id", "pets_user"."last_login", "pets_user"."email", "pets_user"."username", "pets_user"."password", "pets_user"."is_active", "pets_user"."is_staff", "pets_user"."is_superuser", "pets_user"."is_sitter", "pets_user"."date_joined" FROM "authtoken_token" INNER JOIN "pets_user" ON ("authtoken_token"."user_id" = "pets_user"."id") WHERE "authtoken_token"."key" = '4ee8408a87c1fbdb5c33c3e649c15a4a53470f25' LIMIT 21
+2024-08-27 16:10:49.348 JST [92916] ERROR:  column pets_user.username does not exist at character 156
+2024-08-27 16:10:49.348 JST [92916] STATEMENT:  SELECT "authtoken_token"."key", "authtoken_token"."user_id", "authtoken_token"."created", "pets_user"."id", "pets_user"."last_login", "pets_user"."email", "pets_user"."username", "pets_user"."password", "pets_user"."is_active", "pets_user"."is_staff", "pets_user"."is_superuser", "pets_user"."is_sitter", "pets_user"."date_joined" FROM "authtoken_token" INNER JOIN "pets_user" ON ("authtoken_token"."user_id" = "pets_user"."id") WHERE "authtoken_token"."key" = '4ee8408a87c1fbdb5c33c3e649c15a4a53470f25' LIMIT 21
+2024-08-27 16:10:49.349 JST [92916] ERROR:  column pets_user.username does not exist at character 156
+2024-08-27 16:10:49.349 JST [92916] STATEMENT:  SELECT "authtoken_token"."key", "authtoken_token"."user_id", "authtoken_token"."created", "pets_user"."id", "pets_user"."last_login", "pets_user"."email", "pets_user"."username", "pets_user"."password", "pets_user"."is_active", "pets_user"."is_staff", "pets_user"."is_superuser", "pets_user"."is_sitter", "pets_user"."date_joined" FROM "authtoken_token" INNER JOIN "pets_user" ON ("authtoken_token"."user_id" = "pets_user"."id") WHERE "authtoken_token"."key" = '4ee8408a87c1fbdb5c33c3e649c15a4a53470f25' LIMIT 21

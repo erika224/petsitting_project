@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}ホーム{% endblock %}
+
+{% block content %}
+    <h1>ようこそ</h1>
+    <div v-if="isLoggedIn">
+        <p>Welcome, {{ username }}!</p>
+        <button @click="logout">Logout</button>
+    </div>
+    <div v-else>
+        <p><router-link to="/login">ログイン</router-link> または <router-link to="/register">新規登録</router-link>.</p>
+    </div>
+{% endblock %}
